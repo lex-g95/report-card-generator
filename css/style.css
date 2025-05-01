@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FD;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #25282A;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Form container styling */
+  .form-container {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
+  }
+  
+  /* Preview container styling */
+  .preview-container {
+    flex: 2;
+    background-color: #F8F9FD;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .iframe-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 800px;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  /* Headings, form fields, tabs, buttons, etc. */
+  /* (Include the rest of the CSS rules extracted from your current code) */
+  
