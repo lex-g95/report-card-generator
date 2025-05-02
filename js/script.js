@@ -162,6 +162,7 @@ function generateReport() {
         <title>Customer Report Card - ${clientName}</title>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
         <style>
+        <link rel="stylesheet" href="css/style.css">
           /* Include report card CSS here (or link to an external CSS file if you prefer) */
           body {
             font-family: 'IBM Plex Sans', sans-serif;
